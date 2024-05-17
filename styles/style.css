@@ -43,7 +43,7 @@ a, ul, li{
 
 .header-logo {
     display: block;
-    font-size: 54;
+    font-size: 34;
     font-weight: 900;
     color: #f3efef;
 }
@@ -56,7 +56,6 @@ a, ul, li{
 
 .header-item-info {
     display: block;
-    background-color: rgb(230, 90, 8);
     border-radius: 7%;
     font-size: 22px;
     font-weight: 500;
