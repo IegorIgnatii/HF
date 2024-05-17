@@ -1,3 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(153, 153, 235);
+    font-family: "Poppins", serif ;
+    font-size: 16px;
+    font-weight: 400;
 }
+
+a, ul, li{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+.ua-lang,
+.site-akk-open{
+    font-family: "Poetsen", serif;
+    font-size: 18px;
+    font-weight: 600;}
+
+.top-navigation-box {
+    width: 1800;
+    height: 200;
+    background-color: blanchedalmond;
+    margin: 5px;
+    padding: 30px;
+}
+
+.menu-list-info {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.header-item-info {
+    display: block;
+}
+
+
+
