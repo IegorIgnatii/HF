@@ -11,6 +11,10 @@ body{
     font-weight: 400;
 }
 
+header{
+    background-color: black;
+    color: #ddebd2;
+}
 footer{
     background-color: black;
     color: #ddebd2;
@@ -21,20 +25,27 @@ a, ul, li{
     text-decoration: none;
     list-style-type: none;
     margin: 0;
+    color: #e6dede;
 }
 
 .ua-lang,
 .site-akk-open{
     font-family: "Poetsen", serif;
     font-size: 24px;
-    font-weight: 600;}
+    }
 
 .top-navigation-box {
     width: 1800;
     height: 200;
-    background-color: blanchedalmond;
     margin: 5px;
     padding: 30px;
+}
+
+.header-logo {
+    display: block;
+    font-size: 54;
+    font-weight: 900;
+    color: #f3efef;
 }
 
 .menu-list-info {
@@ -45,8 +56,8 @@ a, ul, li{
 
 .header-item-info {
     display: block;
-    background-color: aqua;
-    border-radius: 2%;
+    background-color: rgb(230, 90, 8);
+    border-radius: 7%;
     font-size: 22px;
     font-weight: 500;
 }
@@ -65,7 +76,10 @@ a, ul, li{
 }
 
 .footer-logo {
-    display: block;}
+    display: block;
+    font-size: 24;
+    font-weight: 900;
+}
 
 .footer-catalog {
     display: block;}
