@@ -5,19 +5,21 @@
 }
 
 body{
-    background-color: rgb(153, 153, 235);
+    background-color: rgb(236, 236, 250);
     font-family: "Poppins", serif ;
     font-size: 16px;
     font-weight: 400;
 }
 
 header{
-    background-color: black;
-    color: #ddebd2;
+    
+    color: #6fda1e;
+    background-image: linear-gradient(45deg,black 300px,rgb(226, 21, 21));
 }
 footer{
     background-color: black;
     color: #ddebd2;
+    background-image: linear-gradient(45deg, rgb(226, 21, 21),black 500px);
 
 }
 
@@ -26,46 +28,6 @@ a, ul, li{
     list-style-type: none;
     margin: 0;
     color: #e6dede;
-}
-
-.ua-lang,
-.site-akk-open{
-    font-family: "Poetsen", serif;
-    font-size: 24px;
-    }
-
-.top-navigation-box {
-    width: 1800;
-    height: 200;
-    margin: 5px;
-    padding: 30px;
-}
-
-.header-logo {
-    display: block;
-    font-size: 34;
-    font-weight: 900;
-    color: #f3efef;
-}
-
-.menu-list-info {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-}
-
-.header-item-info {
-    display: block;
-    border-radius: 7%;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.center-navigation-box {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 12px;
 }
 
 .footer-box {
@@ -89,3 +51,112 @@ a, ul, li{
 .footer-info {
     display: block;}
 
+.top-navigation {}
+
+.top-navigation-box {
+    width: 1800;
+    height: 200;
+    margin: 5px;
+    padding: 30px;
+}
+
+.center-navigation-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.header-logo {
+    display: block;
+    font-size: 64;
+    font-weight: 900;
+    color: #ececf0;
+}
+
+.site-navigation {}
+
+.menu-list-info {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.header-item-info {
+    display: block;
+    border-radius: 7%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.header-link {}
+
+.site-lang-akk {}
+
+.site-lang {}
+
+.ua-lang {
+    font-family: "Poetsen", serif;
+    font-size: 24px;}
+
+.site-akk {
+    font-family: "Poetsen", serif;
+    font-size: 24px;}
+
+.site-akk-open {}
+
+.menu-sticky-top {}
+
+.site-catalog {}
+
+.list-catalog {}
+
+.item-catalog {}
+
+.menu-catalog-link {}
+
+.site-search {}
+
+.fm-search {}
+
+.w-100 {}
+
+.h-100 {}
+
+.menu-input {}
+
+.btn-search {}
+
+.contact-sticky-button {}
+
+.banner {}
+
+.popular-products {}
+
+.finished-model {}
+
+.advantages {}
+
+.promotional-set {}
+
+.footer-box {}
+
+.footer-logo {}
+
+.footer-catalog {}
+
+.footer-list-catalog {}
+
+.footer-item-catalog {}
+
+.footer-catalog-link {}
+
+.work-time {}
+
+.footer-info {}
+
+.footer-list-info {}
+
+.footer-item-info {}
+
+.footer-link {}
