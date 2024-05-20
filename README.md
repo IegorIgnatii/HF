@@ -9,3 +9,10 @@ Plastic scale models are injection-molded in polystyrene, and the parts are bond
 HomaFarba is an Ukrainians-origin manufacturer of colors and accessories for plastic scale models, currently based in Kharkiv, Ukraine.
 
 Our clients military, ship, and aircraft modelers prize accuracy above all and one of the main tasks for HomaFarba is to help our client replant the model with maximum realism.
+
+===
+Color palette
+authenticity of color
+environmental friendliness
+professionalism
+manufacturability
