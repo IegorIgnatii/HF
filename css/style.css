@@ -77,9 +77,6 @@ p {
 .aboutus-img {
     background-color: gray;
     border-radius: 30px;
-    height: 446px;
-    max-height: 446px;
-
 }
 
 
@@ -103,18 +100,19 @@ p {
         display: flex;
         flex-direction: row;
         align-content: center;
+        gap: 40px;
     }
 
     .aboutus-welcome{
-        
+        /* width: 52%; */
     }
     
     .aboutus-btn{
         margin-top: 40px;
     }
     .aboutus-img {
-        min-width: 530px;
-        min-height: 532px;
+        max-width: 100%;
+        margin-right: 0;
     }
 
 
