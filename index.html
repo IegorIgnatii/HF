@@ -4,169 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="top-nav-meny">
-        <div class="top-nav-box">
-          <div class="center-nav-box">
-            <div class="header-logo">HomaFarba</div>
-            <div class="header-site-naw">
-              <ul class="header-list-info">
-                <li class="header-item-info">
-                  <a href="" class="header-link">About company</a>
-                </li>
-                <li class="header-item-info">
-                  <a href="" class="header-link">Shipping and payment</a>
-                </li>
-                <li class="header-item-info">
-                  <a href="" class="header-link">Contacts</a>
-                </li>
-                <li class="header-item-info">
-                  <a href="" class="header-link">News</a>
-                </li>
-              </ul>
-            </div>
-            <div class="site-lang-akk">
-              <div class="site-lang">
-                <button class="ua-lang">Укр</button>
-                <button class="ua-lang">Eng</button>
-              </div>
-              <div class="site-akk">
-                <button class="site-akk-open">Log in</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="menu-sticky-top">
-        <div class="site-catalog">
-          <ul class="list-catalog">
-            <li class="item-catalog"><a class="catalog-link">Farba</a></li>
-            <li class="item-catalog">
-              <a class="catalog-link">Brushes</a>
-            </li>
-            <li class="item-catalog">
-              <a class="catalog-link">Primer</a>
-            </li>
-            <li class="item-catalog"><a class="catalog-link">Glue</a></li>
-          </ul>
-        </div>
-        <div class="site-search">
-          <form class="fm-search">
-            <input
-              id="input_search"
-              type="text"
-              name="search"
-              placeholder="Find your products here"
-            />
-            <button type="button" class="btn-search">Search</button>
-          </form>
-        </div>
+    <section class="aboutus">
+      <div class="aboutus-welcome">
+        <h2 class="aboutus-title">About Us</h2>
+        <p class="aboutus-text">
+          Welcome to our premium watch collection, where luxury and style meet
+          functionality and precision. Our selection of timepieces embodies the
+          very best in Swiss craftsmanship and engineering, ensuring that you'll
+          always have a reliable and stylish accessory on your wrist.
+        </p>
+        <p class="aboutus-text">
+          At our premium watch collection, we believe that a watch is more than
+          just a timekeeping device &mdash it's a statement piece that reflects
+          your personality and style. So why settle for anything less than the
+          best?
+        </p>
+        <button class="aboutus-btn" type="button">View catalog</button>
       </div>
-      <div class="contact-sticky-button">
-        <button>Contacts</button>
+      <div class="aboutus-img">
+        <picture>
+          <source media="(max-width: 767px)" srcset="" type="image/jpg" />
+          <source media="(min-width: 768px)" srcset="" type="image/jpg" />
+          <source media="(min-width: 1280px)" srcset="" type="image/jpg" />
+          <img
+            src=""
+            alt="The wristwatch shows that it is a beautiful Sunday morning"
+            width=""
+            height=""
+            loading="lazy"
+          />
+        </picture>
       </div>
-      <div class="banner">
-        <img src="/images/banner/tank.jpg" alt="Banner Homa" />
-      </div>
-      <div class="popular-products">
-        <h3>Popular products</h3>
-        <div class="box-popular-products">
-          <ul class="popular-products-list">
-            <li class="popular-products-item">
-              <img
-                class="images-popular-products"
-                src="/images/product/nabor.jpg"
-                alt="Color 23"
-                height="100"
-                width="100"
-              /><a href=""></a>
-            </li>
-            <li class="popular-products-item">
-              <img
-                class="images-popular-products"
-                src="/images/popular product/airplane.jpg"
-                alt="airplane"
-                height="100"
-                width="100"
-              /><a href=""><p>Set HomaFarba 1</p></a>
-            </li>
-            <li class="popular-products-item">
-              <img
-                class="images-popular-products"
-                src="/images/popular product/jar.jpg"
-                alt="Color 26"
-                height="100"
-                width="100"
-              /><a href=""><p>Color 22</p></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="finished-model">
-        <h3>Finished model</h3>
-      </div>
-      <div class="advantages">
-        <h3>Advantages</h3>
-      </div>
-      <div class="promotional-set">
-        <h3>Promotional set</h3>
-      </div>
-    </main>
-    <footer>
-      <div class="footer-box">
-        <div class="footer-logo">Homa Farba</div>
-        <div class="footer-catalog">
-          <ul class="footer-list-catalog">
-            <li class="footer-item-catalog">
-              <a class="footer-catalog-link" href="">Farba</a>
-            </li>
-            <li class="footer-item-catalog">
-              <a class="footer-catalog-link" href="">Brushes</a>
-            </li>
-            <li class="footer-item-catalog">
-              <a class="footer-catalog-link" href="">Primer</a>
-            </li>
-            <li class="footer-item-catalog">
-              <a class="footer-catalog-link" href="">Glue</a>
-            </li>
-          </ul>
-        </div>
-        <div class="work-time">
-          <h3>Work time</h3>
-          <p>Mon-Fri: from 09:00 to 18:00</p>
-          <p>Sat: from 10:00 to 16:00</p>
-          <p>Sun: day off</p>
-        </div>
-        <div class="footer-info">
-          <ul class="footer-list-info">
-            <li class="footer-item-info">
-              <a class="footer-link">About company</a>
-            </li>
-            <li class="footer-item-info">
-              <a class="footer-link">Shipping and payment</a>
-            </li>
-            <li class="footer-item-info">
-              <a class="footer-link">Contacts</a>
-            </li>
-            <li class="footer-item-info"><a class="footer-link">News</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+    </section>
   </body>
 </html>
